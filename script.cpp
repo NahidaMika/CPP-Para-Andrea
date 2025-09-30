@@ -1,10 +1,12 @@
 #include <iostream>
 #include <cmath>
 
+using namespace std;
+
 int main() {
     int pointerw = 10;
     double value;
     int* pointer =  &pointerw;
-    std::cout << "Enter value:" << std::endl;
-    std::cin >> value;
+    cout << "Enter value:" << endl;
+    cin >> value;
 }
